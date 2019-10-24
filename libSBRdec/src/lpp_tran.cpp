@@ -119,7 +119,9 @@ amm-info@iis.fraunhofer.de
 */
 
 #ifdef __ANDROID__
-#include "log/log.h"
+#include "android/log.h"
+#define LOG_TAG "lpp_tran"
+#define android_errorWriteLog(FORMAT, ...) __android_log_print(ANDROID_LOG_ERROR,LOG_TAG,FORMAT,##__VA_ARGS__);
 #endif
 
 #include "lpp_tran.h"
@@ -339,7 +341,7 @@ void lppTransposer(
 #ifdef __ANDROID__
   else {
     // Safetynet logging
-    android_errorWriteLog(0x534e4554, "112160868");
+    //android_errorWriteLog(0x534e4554, "112160868");
   }
 #endif
 
@@ -919,7 +921,7 @@ void lppTransposerHBE(
 #ifdef __ANDROID__
   else {
     // Safetynet logging
-    android_errorWriteLog(0x534e4554, "112160868");
+    //android_errorWriteLog(0x534e4554, "112160868");
   }
 #endif
 

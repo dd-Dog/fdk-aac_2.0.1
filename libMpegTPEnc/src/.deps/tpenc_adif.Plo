@@ -1,11 +1,6 @@
 libMpegTPEnc/src/tpenc_adif.lo: libMpegTPEnc/src/tpenc_adif.cpp \
- /usr/include/stdc-predef.h libMpegTPEnc/src/tpenc_adif.h \
- libSYS/include/machine_type.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h /usr/include/assert.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ libMpegTPEnc/src/tpenc_adif.h libSYS/include/machine_type.h \
+ /home/bianjb/ndk/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h \
  libFDK/include/FDK_bitstream.h libFDK/include/FDK_bitbuffer.h \
  libFDK/include/FDK_archdef.h libSYS/include/genericStds.h \
  libSYS/include/machine_type.h libMpegTPDec/include/tp_data.h \
@@ -13,25 +8,11 @@ libMpegTPEnc/src/tpenc_adif.lo: libMpegTPEnc/src/tpenc_adif.cpp \
  libSYS/include/syslib_channelMapDescr.h libMpegTPEnc/include/tpenc_lib.h \
  libMpegTPEnc/include/tp_data.h libMpegTPEnc/src/tpenc_asc.h
 
-/usr/include/stdc-predef.h:
-
 libMpegTPEnc/src/tpenc_adif.h:
 
 libSYS/include/machine_type.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
-
-/usr/include/assert.h:
-
-/usr/include/features.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/home/bianjb/ndk/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h:
 
 libFDK/include/FDK_bitstream.h:
 

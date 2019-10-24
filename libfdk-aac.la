@@ -5,10 +5,10 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
-dlname='libfdk-aac.so.2'
+dlname=''
 
 # Names of this library.
-library_names='libfdk-aac.so.2.0.1 libfdk-aac.so.2 libfdk-aac.so'
+library_names=''
 
 # The name of the static archive.
 old_library='libfdk-aac.a'
@@ -17,7 +17,7 @@ old_library='libfdk-aac.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -lm'
+dependency_libs=' -L/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm//usr/lib -L/home/bianjb/ndk/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib -lm'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/bianjb/av/fdkaac/fdk-aac-2.0.1/out/linux/lib'
+libdir='/home/bianjb/av/fdkaac/fdk-aac-2.0.1/out/armv7a/lib'

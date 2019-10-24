@@ -1,121 +1,81 @@
 libSYS/src/genericStds.lo: libSYS/src/genericStds.cpp \
- /usr/include/stdc-predef.h libSYS/include/genericStds.h \
- libSYS/include/machine_type.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h /usr/include/assert.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
- /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/sigset.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/select2.h \
- /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/stdio.h \
- /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/string3.h
-
-/usr/include/stdc-predef.h:
+ libSYS/include/genericStds.h libSYS/include/machine_type.h \
+ /home/bianjb/ndk/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/stdlib.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/string.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/malloc.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/alloca.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/strings.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/sys/types.h \
+ /home/bianjb/ndk/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/stdint.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/asm/types.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/linux/types.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/memory.h \
+ /home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/stdio.h \
+ /home/bianjb/ndk/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h
 
 libSYS/include/genericStds.h:
 
 libSYS/include/machine_type.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
+/home/bianjb/ndk/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h:
 
-/usr/include/assert.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/stdlib.h:
 
-/usr/include/features.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/android/api-level.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/string.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/malloc.h:
 
-/usr/include/stdlib.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/alloca.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/strings.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/sys/types.h:
 
-/usr/include/endian.h:
+/home/bianjb/ndk/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/stdint.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/sys/_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/machine/_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
 
-/usr/include/xlocale.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
 
-/usr/include/time.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/asm/types.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/linux/types.h:
 
-/usr/include/x86_64-linux-gnu/bits/select.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigset.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
 
-/usr/include/x86_64-linux-gnu/bits/time.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/memory.h:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
+/home/bianjb/ndk/android-ndk-r15c/platforms/android-19/arch-arm/usr/include/stdio.h:
 
-/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/alloca.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
-/usr/include/stdio.h:
-
-/usr/include/libio.h:
-
-/usr/include/_G_config.h:
-
-/usr/include/wchar.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
-/usr/include/string.h:
-
-/usr/include/x86_64-linux-gnu/bits/string3.h:
+/home/bianjb/ndk/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h:
